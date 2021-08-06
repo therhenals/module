@@ -1,4 +1,4 @@
-package com.todo1.plugins.FlutterAddToApp;
+package com.todo1.plugins.MicroAppsFlutter;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
@@ -11,8 +11,8 @@ import io.flutter.embedding.android.FlutterActivity;
 /**
  * This class echoes a string called from JavaScript.
  */
-public class FlutterAddToApp extends CordovaPlugin {
-    private static final String TAG = "FlutterAddToAppPlugin";
+public class MicroAppsFlutter extends CordovaPlugin {
+    private static final String TAG = "MicroAppsFlutterPlugin";
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {

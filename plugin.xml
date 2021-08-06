@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="com.todo1.plugins.FlutterAddToApp" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>FlutterAddToApp</name>
-    <js-module name="FlutterAddToApp" src="www/FlutterAddToApp.js">
-        <clobbers target="FlutterAddToApp" />
+<plugin id="com.todo1.plugins.MicroAppsFlutter" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>MicroAppsFlutter</name>
+    <js-module name="MicroAppsFlutter" src="www/MicroAppsFlutter.js">
+        <clobbers target="MicroAppsFlutter" />
     </js-module>
     <platform name="android">
         <framework src="./src/android/plugin.gradle" custom="true" type="gradleReference" />
         <config-file parent="/*" target="res/xml/config.xml">
-            <feature name="FlutterAddToApp">
-                <param name="android-package" value="com.todo1.plugins.FlutterAddToApp.FlutterAddToApp" />
+            <feature name="MicroAppsFlutter">
+                <param name="android-package" value="com.todo1.plugins.MicroAppsFlutter.MicroAppsFlutter" />
             </feature>
         </config-file>
         <config-file parent="/manifest/application" target="AndroidManifest.xml">
@@ -18,7 +18,7 @@
             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
             <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
         </config-file>
-        <source-file src="src/android/FlutterAddToApp.java" target-dir="src/com/todo1/plugins/FlutterAddToApp" />
+        <source-file src="src/android/MicroAppsFlutter.java" target-dir="src/com/todo1/plugins/MicroAppsFlutter" />
         <resource-file src="src/android/album" target="repo" />
     </platform>
 </plugin>
