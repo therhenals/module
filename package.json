@@ -1,0 +1,17 @@
+{
+  "name": "com.todo1.plugins.FlutterAddToApp",
+  "version": "1.0.0",
+  "description": "",
+  "cordova": {
+    "id": "com.todo1.plugins.FlutterAddToApp",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "ISC"
+}

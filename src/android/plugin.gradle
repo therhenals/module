@@ -1,0 +1,13 @@
+repositories {
+    maven {
+        url '../app/src/main/repo'
+    }
+    maven {
+        url 'https://storage.googleapis.com/download.flutter.io'
+    }
+}
+
+dependencies {
+    debugImplementation 'co.com.bancolombia.my_flutte:flutter_debug:1.0'
+    releaseImplementation 'co.com.bancolombia.my_flutte:flutter_release:1.0'
+}
